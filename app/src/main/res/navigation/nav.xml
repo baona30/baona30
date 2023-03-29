@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.finalproject.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_mainFragment_to_registerActivity"
+            app:destination="@id/registerActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerActivity"
+        android:name="com.finalproject.RegisterActivity"
+        android:label="fragment_register_activity"
+        tools:layout="@layout/fragment_register_activity" >
+        <action
+            android:id="@+id/action_registerActivity_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginActivity"
+        android:name="com.finalproject.LoginActivity"
+        android:label="fragment_login_activity"
+        tools:layout="@layout/fragment_login_activity" >
+        <action
+            android:id="@+id/action_loginActivity_to_settingsActivity"
+            app:destination="@id/settingsActivity" />
+        <action
+            android:id="@+id/action_loginActivity_to_dashboardActivity"
+            app:destination="@id/dashboardActivity" />
+        <action
+            android:id="@+id/action_loginActivity_to_drinkItemFragment2"
+            app:destination="@id/drinkItemFragment" />
+        <action
+            android:id="@+id/action_loginActivity_to_drinkLogFragment"
+            app:destination="@id/drinkLogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsActivity"
+        android:name="com.finalproject.SettingsActivity"
+        android:label="fragment_settings_activity"
+        tools:layout="@layout/fragment_settings_activity" />
+    <fragment
+        android:id="@+id/dashboardActivity"
+        android:name="com.finalproject.DashboardActivity"
+        android:label="fragment_dashboard_activity"
+        tools:layout="@layout/fragment_dashboard_activity" >
+        <action
+            android:id="@+id/action_dashboardActivity_to_settingsActivity"
+            app:destination="@id/settingsActivity" />
+    </fragment><action android:id="@+id/action_global_settingsActivity" app:destination="@id/settingsActivity"/>
+    <fragment
+        android:id="@+id/drinkItemFragment"
+        android:name="com.finalproject.DrinkItemFragment"
+        android:label="fragment_drink_item_list"
+        tools:layout="@layout/fragment_drink_item_list" >
+        <argument
+            android:name="User"
+            app:argType="com.finalproject.User" />
+        <action
+            android:id="@+id/action_drinkItemFragment_to_drinkDetailFragment"
+            app:destination="@id/drinkDetailFragment" />
+    </fragment>
+    <action android:id="@+id/action_global_drinkItemFragment" app:destination="@id/drinkItemFragment" />
+    <fragment
+        android:id="@+id/drinkDetailFragment"
+        android:name="com.finalproject.DrinkDetailFragment"
+        android:label="fragment_drink_detail"
+        tools:layout="@layout/fragment_drink_detail" /><action android:id="@+id/action_global_drinkDetailFragment" app:destination="@id/drinkDetailFragment"/>
+    <action android:id="@+id/action_global_loginActivity" app:destination="@id/loginActivity" />
+    <fragment
+        android:id="@+id/drinkLogFragment"
+        android:name="com.finalproject.DrinkLogFragment"
+        android:label="fragment_drink_log"
+        tools:layout="@layout/fragment_drink_log" /><action android:id="@+id/action_global_drinkLogFragment" app:destination="@id/drinkLogFragment"/>
+</navigation>

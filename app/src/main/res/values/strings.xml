@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mool</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="setting">Setting</string>
+    <string name="profile">Profile</string>
+    <string name="drinklist">Drink List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info1">Congratulation! You\'ve done today</string>
+    <string-array name="drinktype">
+        <item>Water</item>
+        <item>Coffee</item>
+        <item>Tea</item>
+        <item>Juice</item>
+    </string-array>
+</resources>

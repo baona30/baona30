@@ -1,5 +1,0 @@
-- 👋 Hi, I’m Anh Bao Nguyen
-- 👀 Highly motivated fourth-year computer science student at San Jose State University with a passion for technology. 
-- 🌱 Experienced in Java, Python, JavaScript, and SQL.
-- 💞️ Expected to graduate in May 2023, Seeking Internship/Entry-Level Programming Position
-- 📫 email: bao.na30@gmail.com - https://www.linkedin.com/in/anhbaonguyen
