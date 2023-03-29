@@ -1,10 +1,5 @@
-- 👋 Hi, I’m Bao Nguyen
-- 👀 I’m interested in ... Java/Python and SQL
-- 🌱 I am a third year Computer Science student at San Jose State University
-- 💞️ I’m looking for a programming internship
-- 📫 How to reach me ...bao.na30@gmail.com 
-
-<!---
-baona30/baona30 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 👋 Hi, I’m Anh Bao Nguyen
+- 👀 Highly motivated fourth-year computer science student at San Jose State University with a passion for technology. 
+- 🌱 Experienced in Java, Python, JavaScript, and SQL.
+- 💞️ Expected to graduate in May 2023, Seeking Internship/Entry-Level Programming Position
+- 📫 email: bao.na30@gmail.com - https://www.linkedin.com/in/anhbaonguyen
