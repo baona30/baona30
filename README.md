@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Anh Bao Nguyen
 - 💞️ Highly motivated computer science graduate at San Jose State University with a passion for technology. 
-- 🌱 Experienced in Java, Python, JavaScript, and SQL database programming.
+- 🌱 Experienced in Java, Python, C++, JavaScript, ReactJS, NodeJS, HTML, CSS, and SQL database programming.
 -  Adaptable and able to work effectively in a team environment
 - 👀 Seeking an internship/entry-level as a software developer, software engineer or data scientist
 - 📫 email: bao.na30@gmail.com - https://www.linkedin.com/in/anhbaonguyen
